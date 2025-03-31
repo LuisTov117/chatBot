@@ -3,7 +3,7 @@ const apiruta = require("./Routes/route")
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1000;
 
 app.use(express.json());
 
